@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>ProfitKit</title>
+</head>
+
+<body>
+    <section class="card__product">
+        <div class="container">
+            <div class="tabs">
+                <button class="tabs__nav-btn active" data-tab="#tab_1" type="button">Популярные товары</button>
+                <button class="tabs__nav-btn" data-tab="#tab_2" type="button">Недавно купили</button>
+                <button class="tabs__nav-btn" data-tab="#tab_3" type="button">Вас может заинтересовать</button>
+            </div>
+            <div class="tabs__content active" id="tab_1">
+                <div class="swiper catalog__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card" data-id="1">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper card__slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="img/noPhoto.jpg" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.jpg" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Тарелка керамическая ручной работы <br>⌀ 12</a>
+                                <div class="card__price">
+                                    <p>600 ₽</p>
+                                    <p>810 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="2">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="img/cactus.png" alt="cactus"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Кашпо для цветов керамическое <br>СИМПЛГРЕЙ</a>
+                                <div class="card__price">
+                                    <p>450 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="3">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img class="card__interesting-hit" src="img/hit.png" alt="hit">
+                                                <img src="img/watch.png" alt="Non photo">
+                                            </div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+
+                                </div>
+                                <a class="card__text" href="#">Умные часы SMARTWATCH XM 109 черный</a>
+                                <div class="card__price">
+                                    <p>12 999 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="4">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img class="card__interesting-new" src="img/new.png" alt="new">
+                                                <img src="img/ring.png" alt="Non photo">
+                                            </div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                                <div class="card__price">
+                                    <p>15 700 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="tabs__content" id="tab_2">
+                <div class="swiper catalog__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card" data-id="5">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper card__slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="img/noPhoto.jpg" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.jpg" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Тарелка керамическая ручной работы <br>⌀ 12</a>
+                                <div class="card__price">
+                                    <p>600 ₽</p>
+                                    <p>810 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="6">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="img/cactus.png" alt="cactus"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Кашпо для цветов керамическое <br>СИМПЛГРЕЙ</a>
+                                <div class="card__price">
+                                    <p>450 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="7">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img class="card__interesting-hit" src="img/hit.png" alt="hit">
+                                                <img src="img/watch.png" alt="Non photo">
+                                            </div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+
+                                </div>
+                                <a class="card__text" href="#">Умные часы SMARTWATCH XM 109 черный</a>
+                                <div class="card__price">
+                                    <p>12 999 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="8">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img class="card__interesting-new" src="img/new.png" alt="new">
+                                                <img src="img/ring.png" alt="Non photo">
+                                            </div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                                <div class="card__price">
+                                    <p>15 700 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="tabs__content" id="tab_3">
+                <div class="swiper catalog__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card" data-id="9">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper card__slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="img/noPhoto.jpg" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.jpg" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Тарелка керамическая ручной работы <br>⌀ 12</a>
+                                <div class="card__price">
+                                    <p>600 ₽</p>
+                                    <p>810 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="10">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="img/cactus.png" alt="cactus"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Кашпо для цветов керамическое <br>СИМПЛГРЕЙ</a>
+                                <div class="card__price">
+                                    <p>450 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="11">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img class="card__interesting-hit" src="img/hit.png" alt="hit">
+                                                <img src="img/watch.png" alt="Non photo">
+                                            </div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+
+                                </div>
+                                <a class="card__text" href="#">Умные часы SMARTWATCH XM 109 черный</a>
+                                <div class="card__price">
+                                    <p>12 999 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" data-id="12">
+                                <div class="card__img">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img class="card__interesting-new" src="img/new.png" alt="new">
+                                                <img src="img/ring.png" alt="Non photo">
+                                            </div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                            <div class="swiper-slide"><img src="img/noPhoto.png" alt="Non photo"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <button type="button" class="card__favorite"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path
+                                                d="M17 25C13.4058 23.4602 8.51375 19.0571 8.01457 14.0045C7.7873 11.7041 10.2609 9.00002 12.5073 9.00001C14.612 9.00001 16.1014 10.1549 17 12.0797C17.8985 10.1549 19.388 8.99999 21.4927 9C23.7391 9.00001 26.2127 11.7041 25.9854 14.0045C25.4862 19.0571 20.5942 23.4602 17 25Z"
+                                                stroke="black" stroke-width="2" />
+                                        </svg></button>
+                                    <button type="button" class="card__compare"><svg width="34" height="34"
+                                            viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="34" height="34" rx="17" fill="white" />
+                                            <path d="M8.11011 20.7679L11.3552 10.6506L14.8659 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <path d="M19.1339 20.7679L22.3789 10.6506L25.8896 20.7679" stroke="black"
+                                                stroke-width="1.5" stroke-linejoin="round" />
+                                            <circle cx="17" cy="10.6506" r="1.5532" stroke="black" stroke-width="1.5" />
+                                            <path d="M18.9136 10.5393H20.3994" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path d="M13.6 10.5393H15.0858" stroke="black" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M11.4881 24.231C9.68302 24.231 8.17674 22.9515 7.82672 21.25H15.1496C14.7995 22.9515 13.2932 24.231 11.4881 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                            <path
+                                                d="M22.5121 24.231C20.7069 24.231 19.2007 22.9515 18.8506 21.25H26.1735C25.8235 22.9515 24.3172 24.231 22.5121 24.231Z"
+                                                stroke="black" stroke-width="1.5" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <a class="card__text" href="#">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                                <div class="card__price">
+                                    <p>15 700 ₽</p>
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__count">
+                                        <button type="button" class="card__minus action" data-action="decrement"><img
+                                                src="img/minus.svg" alt="minus"></button>
+                                        <input type="number" name="count" value="1">
+                                        <button type="button" class="card__plus action" data-action="increment"><img
+                                                src="img/plus.svg" alt="plus"></button>
+                                    </div>
+                                    <button type="button" class="card__order"><img src="img/trash.svg" alt="trash">В
+                                        корзину
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
